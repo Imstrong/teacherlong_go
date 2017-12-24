@@ -13,6 +13,12 @@ func (c *MainController) Get() {
 	c.Data["Email"] = "astaxie@gmail.com"
 	c.TplName = "index.tpl"
 }
+func (c *MainController) Index() {
+	c.TplName="index.tpl"
+}
 func (c *MainController) LoginPage() {
 	c.TplName = "login.tpl"
+}
+func (c *MainController) About(){
+	c.TplName="about.tpl"
 }

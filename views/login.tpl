@@ -5,17 +5,17 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="static/css/reset.css">
+    <title>笑与君歌-登录</title>
+    <link rel="stylesheet" href="static/css/normalize.css">
     <link rel="stylesheet" href="static/css/login.css">
 </head>
 <body>
 <div class="container">
     <div class="content">
-        <div class="head">登录笑与君歌账号</div>
+        <div class="head">登录<a href="/">笑与君歌</a>账号</div>
         <div class="hr"></div>
-        <div class="label"><label for="username">用户名：</label><input type="text" name="username"></div>
-        <div class="label"><label for="password">密 &nbsp;码：</label><input type="text" name="password"></div>
+        <div class="label"><input type="text" name="username" placeholder="用户名"></div>
+        <div class="label"><input type="password" name="password" placeholder="密码"></div>
         <div class="label"><button>登 录</button></div>
     </div>
 </div>
