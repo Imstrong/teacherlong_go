@@ -16,7 +16,7 @@ func (c *MainController) Get() {
 func (c *MainController) Index() {
 	c.TplName="index.tpl"
 }
-func (c *MainController) LoginPage() {
+func (c *MainController) Login() {
 	c.TplName = "login.tpl"
 }
 func (c *MainController) About(){
