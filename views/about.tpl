@@ -25,7 +25,7 @@
             <div class="social-group">
                 <div class="social-wrapper"><a href="https://weibo.com/u/2965281877" target="_blank" title="访问我的微博"><img src="static/img/weibo.png"/></a></div>
                 <div class="social-wrapper"><a href="https://github.com/Imstrong" target="_blank" title="访问我的github"><img src="static/img/github.png"/></a></div>
-                <div class="social-wrapper"><a href="javascript:;"><img src="static/img/wechat.png" class="wechat"/></a><span class="qr-code"><img
+                <div class="social-wrapper"><a href="javascript:;"><img src="static/img/wechat.png" id="wechat"/></a><span class="qr-code"><img
                         src="static/img/codeeeeeer.jpg" alt=""></span></div>
             </div>
         </div>
