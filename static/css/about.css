@@ -117,7 +117,7 @@ body {
     position:absolute;
 }
 .photo-wrapper{
-    width:40%;
+    width:800px;
     height:500px;
     margin:0 auto;
 }
@@ -181,6 +181,11 @@ body {
     -ms-transition: bottom .5s ease,transform 1s ease-in 1s;
     -o-transition: bottom .5s ease,transform 1s ease-in 1s;
     transition: bottom .5s ease,transform 1s ease-in 1s;
+    //高斯模糊
+    /*-webkit-filter: blur(10px); !* Chrome, Opera *!*/
+    /*-moz-filter: blur(10px);*/
+    /*-ms-filter: blur(10px);*/
+    /*filter: blur(10px);*/
 }
 .photo-group:hover .desc{
     bottom:20px;
@@ -217,12 +222,12 @@ body {
     right:85px;
     top:-40px;
 }
-.wechat{
+#wechat{
     display:block;
     width:100%;
     height:100%;
     z-index:3;
 }
-.wechat:hover .qr-code{
+#wechat:hover .qr-code{
     display:block;
 }
